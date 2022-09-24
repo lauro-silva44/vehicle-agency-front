@@ -1,0 +1,51 @@
+.car-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+
+  .button{
+    margin-bottom: 40px;
+    
+  }
+  button {
+  background: #3f85ff;
+  border: none;
+  color: white;
+  border: 2px solid white; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;font-weight: bold;
+
+  width: 20%;
+  height: 70px;
+  border-radius:5px ;
+  cursor: pointer;
+  }
+
+
+  img{
+    width: 650px;
+    border-radius: 5px;
+    border: 2px solid #3f85ff; 
+  }
+}
+
+.car-info {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  
+}
+p, h1 {
+  color: #3f85ff;
+  font-weight: bold;
+
+}
