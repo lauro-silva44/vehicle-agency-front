@@ -15,7 +15,7 @@ type CarType = {
   id: string;
 };
 
-type Props = {
+export type Props = {
   data: CarType;
 };
 
@@ -48,7 +48,7 @@ export const CarPage = ({ data }: Props) => {
         <p>{data.chassi.toUpperCase()}</p>
       </div>
       <div className="button">
-        {data.bought && (
+        {!data.bought && (
           <button onClick={buy} disabled={disable}>
             BUY NOW
           </button>

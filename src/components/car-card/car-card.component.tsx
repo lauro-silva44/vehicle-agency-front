@@ -8,11 +8,11 @@ type ProsType = {
   photo: string;
 };
 
-type Props = {
+export type CarProps = {
   data: ProsType;
 };
 
-export const CarCard = ({ data }: Props) => (
+export const CarCard = ({ data }: CarProps) => (
   <div style={{ backgroundImage: `url(${data.photo})` }} className="card-card">
     <div className="color-back">
       <div className="info">
