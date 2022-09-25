@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { PostRequestHooks } from "../../hooks/usePostRequesHook";
 import "./car.style.scss";
 type CarType = {
   model: string;
@@ -32,8 +31,6 @@ export const CarPage = ({ data }: Props) => {
 
     setDesable(true);
   }
-
-  console.log("id here: ", data.id);
 
   return (
     <div className="car-page">
