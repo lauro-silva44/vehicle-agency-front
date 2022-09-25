@@ -8,7 +8,7 @@ export const CarList = () => {
   return (
     <div className="card-list">
       {data?.map((repo) => (
-        <CarCard data={repo} />
+        <CarCard data={repo} key={repo.id} />
       ))}
     </div>
   );
