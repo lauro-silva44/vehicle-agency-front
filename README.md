@@ -6,38 +6,24 @@ Challenge Accepted: ![challenge meme](./doc/challenge.png)
 
 ## Stack
 
-- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
-- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
-- [Three.js](https://threejs.org/) - 3D library for JavaScript
-- [Framer Motion](https://www.framer.com/motion/) - An animation library for React
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Redux](https://redux.js.org//) - A predictable state container for JavaScript apps
+- [Axios](https://axios-http.com/) - A promise-based HTTP Client for node.js and the browser
 
 ## Project structure
 
 ```
 $PROJECT_ROOT
 │   # Page files
-├── pages
-│   # React component files
-├── components
-│   # Non-react modules
-├── lib
-│   # Static files for images and 3d model file
-└── public
+└──src
+    │   # React component files
+    ├── components
+    ├── hooks
+    ├── pages
+    └── redux
 ```
 
-## License
+### `yarn start`
 
-MIT License.
-
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
-
-Check out [LICENSE](./LICENSE) for more detail.
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
