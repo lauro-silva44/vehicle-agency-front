@@ -1,6 +1,5 @@
 # Vehicle Agency
 
-CHALLENGE ACCEPTED!
 ![projet print](./doc/thumb.png)
 
 ## Stack
