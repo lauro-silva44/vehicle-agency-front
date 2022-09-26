@@ -36,7 +36,7 @@ export const CarPage = () => {
               <p>{car.chassi.toUpperCase()}</p>
             </div>
             <div className="button">
-              {!car.bought && <button>BUY NOW</button>}
+              {!car.bought && <button onClick={buy}>BUY NOW</button>}
             </div>
           </>
         ))}
