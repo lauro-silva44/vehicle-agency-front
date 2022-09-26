@@ -3,8 +3,6 @@
 CHALLENGE ACCEPTED!
 [projet print](./doc/front.png)
 
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
-
 ## Stack
 
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces.
