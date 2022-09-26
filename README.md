@@ -1,6 +1,6 @@
 # Vehicle Agency
 
-Challenge Accepted: [![YouTube thumbnail](./doc/challenge.png]
+Challenge Accepted: [![challenge meme](./doc/challenge.png)]
 
 [![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
